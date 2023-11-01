@@ -1,0 +1,33 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Led0",
+					"strict" : false
+				},
+				{
+					"name" : "Led1",
+					"strict" : false
+				},
+				{
+					"name" : "Led2",
+					"strict" : false
+				},
+				{
+					"name" : "Led3",
+					"strict" : false
+				},
+				{
+					"name" : "input",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

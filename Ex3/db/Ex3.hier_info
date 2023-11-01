@@ -1,0 +1,19 @@
+|Ex3
+SW0 => buff[0].DATAIN
+SW1 => buff[1].DATAIN
+SW2 => buff[2].DATAIN
+SW3 => buff[3].DATAIN
+EW => buff[0].CLK
+EW => buff[1].CLK
+EW => buff[2].CLK
+EW => buff[3].CLK
+ER => Led3~reg0.CLK
+ER => Led2~reg0.CLK
+ER => Led1~reg0.CLK
+ER => Led0~reg0.CLK
+Led0 <= Led0~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Led1 <= Led1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Led2 <= Led2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Led3 <= Led3~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

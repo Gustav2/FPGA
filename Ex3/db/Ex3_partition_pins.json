@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Led0",
+					"strict" : false
+				},
+				{
+					"name" : "Led1",
+					"strict" : false
+				},
+				{
+					"name" : "Led2",
+					"strict" : false
+				},
+				{
+					"name" : "Led3",
+					"strict" : false
+				},
+				{
+					"name" : "ER",
+					"strict" : false
+				},
+				{
+					"name" : "SW0",
+					"strict" : false
+				},
+				{
+					"name" : "EW",
+					"strict" : false
+				},
+				{
+					"name" : "SW1",
+					"strict" : false
+				},
+				{
+					"name" : "SW2",
+					"strict" : false
+				},
+				{
+					"name" : "SW3",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

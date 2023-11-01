@@ -1,6 +1,11 @@
 |Intro
-a => result.IN0
-b => result.IN1
-result << result.DB_MAX_OUTPUT_PORT_TYPE
+a => l_a.DATAIN
+b => l_b.DATAIN
+c => l_c.DATAIN
+d => l_d.DATAIN
+l_a << a.DB_MAX_OUTPUT_PORT_TYPE
+l_b << b.DB_MAX_OUTPUT_PORT_TYPE
+l_c << c.DB_MAX_OUTPUT_PORT_TYPE
+l_d << d.DB_MAX_OUTPUT_PORT_TYPE
 
 

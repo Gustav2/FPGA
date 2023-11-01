@@ -4,7 +4,19 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "result",
+					"name" : "l_a",
+					"strict" : false
+				},
+				{
+					"name" : "l_b",
+					"strict" : false
+				},
+				{
+					"name" : "l_c",
+					"strict" : false
+				},
+				{
+					"name" : "l_d",
 					"strict" : false
 				},
 				{
@@ -13,6 +25,14 @@
 				},
 				{
 					"name" : "b",
+					"strict" : false
+				},
+				{
+					"name" : "c",
+					"strict" : false
+				},
+				{
+					"name" : "d",
 					"strict" : false
 				}
 			]
