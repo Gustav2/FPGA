@@ -50,5 +50,5 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vcom -93 -work work {C:/Users/madel/Desktop/ComTek/ICE/FPGA/Ex3/Ex3.vhd}
+vcom -93 -work work {C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 8/Ex3/Ex3.vhd}
 
