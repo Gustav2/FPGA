@@ -1,0 +1,35 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity Kursus9_Ex4 is
+    Port (
+        clk : in STD_LOGIC;
+        reset : in STD_LOGIC;
+        binary_input : in STD_LOGIC_VECTOR(3 downto 0);
+        segment_output : out STD_LOGIC_VECTOR(6 downto 0)
+    );
+end SevenSegmentDisplay;
+
+architecture Behavioral of Kursus9_Ex4 is
+    signal segments : STD_LOGIC_VECTOR(6 downto 0);
+    constant seven_seg_mapping : STD_LOGIC_VECTOR(15 downto 0) := "0000000001100011"; -- 4-bit to 7-segment mapping
+    
+begin
+    process(clk, reset)
+    begin
+        if reset = '1' then
+            segments <= "1111111"; -- Turn off all segments when reset is active
+        elsif rising_edge(clk) then
+            if binary_input >= 0 and binary_input <= 9 then
+                segments <= seven_seg_mapping(to_integer(unsigned(binary_input));
+            else
+                segments <= "1111111"; -- Display "error" for invalid inputs
+            end if;
+        end if;
+    end process;
+
+    segment_output <= segments;
+
+end Behavioral;
