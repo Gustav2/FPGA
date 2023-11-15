@@ -5,6 +5,7 @@
 ** The Q output from the last 2 stages are used as inputs for an XOR gate. 
 
 ** The output of the XOR gate is fed to the 1st flip-flop as an input.
+![shift](https://github.com/Gustav2/FPGA/assets/144771985/b96df57c-1b96-4374-8a47-3a6fd553088a)
 
 
 ** As initial value the 1st stage holds an 1  (A=1). The subsequent stages hold zeros.
