@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/gusta/Desktop/GitHub/FPGA/Kursusgang 7/Ex3/Ex3.vhd
+source_file = 1, c:/intelfpga_lite/22.1std/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/22.1std/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/22.1std/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/22.1std/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/gusta/Desktop/GitHub/FPGA/Kursusgang 7/Ex3/db/Ex3.cbx.xml
+design_name = Ex3
+instance = comp, \led~output\, led~output, Ex3, 1
+instance = comp, \sw1~input\, sw1~input, Ex3, 1
+instance = comp, \sw0~input\, sw0~input, Ex3, 1
+instance = comp, \sw2~input\, sw2~input, Ex3, 1
+instance = comp, \sw3~input\, sw3~input, Ex3, 1
+instance = comp, \led~0\, led~0, Ex3, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, Ex3, 1
