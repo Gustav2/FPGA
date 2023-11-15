@@ -1,4 +1,4 @@
-Fitter Status : Successful - Wed Nov 15 11:25:06 2023
+Fitter Status : Successful - Wed Nov 15 11:57:26 2023
 Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 Revision Name : Ex4
 Top-level Entity Name : Ex4
@@ -7,7 +7,7 @@ Device : 5CEBA4F23C7
 Timing Models : Final
 Logic utilization (in ALMs) : 2 / 18,480 ( < 1 % )
 Total registers : 0
-Total pins : 16 / 224 ( 7 % )
+Total pins : 5 / 224 ( 2 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 3,153,920 ( 0 % )
 Total RAM Blocks : 0 / 308 ( 0 % )

@@ -1,0 +1,61 @@
+|Ex5
+x[0] => adder:u1.x
+x[1] => adder:u2.x
+x[2] => adder:u3.x
+x[3] => adder:u4.x
+y[0] => adder:u1.y
+y[1] => adder:u2.y
+y[2] => adder:u3.y
+y[3] => adder:u4.y
+cin => adder:u1.cin
+cout << adder:u4.cout
+result[0] << adder:u1.result
+result[1] << adder:u2.result
+result[2] << adder:u3.result
+result[3] << adder:u4.result
+
+
+|Ex5|adder:u1
+x => cout.IN0
+x => cout.IN0
+y => cout.IN1
+y => cout.IN1
+cin => result.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Ex5|adder:u2
+x => cout.IN0
+x => cout.IN0
+y => cout.IN1
+y => cout.IN1
+cin => result.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Ex5|adder:u3
+x => cout.IN0
+x => cout.IN0
+y => cout.IN1
+y => cout.IN1
+cin => result.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Ex5|adder:u4
+x => cout.IN0
+x => cout.IN0
+y => cout.IN1
+y => cout.IN1
+cin => result.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+
+
