@@ -1,0 +1,21 @@
+|Ex4
+switches[0] => result.IN0
+switches[0] => carry[0].IN0
+switches[1] => result.IN0
+switches[2] => ~NO_FANOUT~
+switches[3] => ~NO_FANOUT~
+switches[4] => result.IN1
+switches[4] => carry[0].IN1
+switches[5] => result.IN1
+switches[6] => ~NO_FANOUT~
+switches[7] => ~NO_FANOUT~
+LEDs[0] <= result.DB_MAX_OUTPUT_PORT_TYPE
+LEDs[1] <= result.DB_MAX_OUTPUT_PORT_TYPE
+LEDs[2] <= <GND>
+LEDs[3] <= <GND>
+LEDs[4] <= <GND>
+LEDs[5] <= <GND>
+LEDs[6] <= <GND>
+LEDs[7] <= <GND>
+
+
