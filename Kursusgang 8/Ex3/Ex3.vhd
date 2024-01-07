@@ -8,8 +8,8 @@ entity Ex3 is
 		SW1	 : in	std_logic;
 		SW2	 : in	std_logic;
 		SW3	 : in	std_logic;
-		EW	 : in	std_logic;
-		ER	 : in	std_logic;
+		EW	 : in	std_logic; --KEY1
+		ER	 : in	std_logic; --KEY0
 		Led0	 : out	std_logic;	
 		Led1	 : out	std_logic;
 		Led2	 : out	std_logic;	

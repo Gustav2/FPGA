@@ -1,5 +1,5 @@
 Timing Analyzer report for Ex3
-Wed Oct 25 13:22:21 2023
+Sun Jan  7 16:03:34 2024
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -100,14 +100,14 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 16          ;
 ; Maximum allowed            ; 16          ;
 ;                            ;             ;
-; Average used               ; 1.12        ;
+; Average used               ; 1.14        ;
 ; Maximum used               ; 16          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   2.3%      ;
-;     Processor 3            ;   2.2%      ;
-;     Processors 4-16        ;   0.6%      ;
+;     Processor 2            ;   2.7%      ;
+;     Processor 3            ;   2.7%      ;
+;     Processors 4-16        ;   0.7%      ;
 +----------------------------+-------------+
 
 
@@ -138,7 +138,7 @@ HTML report is unavailable in plain text report export.
 +-------+--------+--------------------+
 ; Clock ; Slack  ; End Point TNS      ;
 +-------+--------+--------------------+
-; ER    ; -6.711 ; -26.803            ;
+; ER    ; -6.746 ; -26.838            ;
 +-------+--------+--------------------+
 
 
@@ -147,7 +147,7 @@ HTML report is unavailable in plain text report export.
 +-------+-------+--------------------+
 ; Clock ; Slack ; End Point TNS      ;
 +-------+-------+--------------------+
-; ER    ; 1.099 ; 0.000              ;
+; ER    ; 1.095 ; 0.000              ;
 +-------+-------+--------------------+
 
 
@@ -190,7 +190,7 @@ No paths to report.
 +-------+--------+-------------------+
 ; Clock ; Slack  ; End Point TNS     ;
 +-------+--------+-------------------+
-; ER    ; -6.468 ; -25.825           ;
+; ER    ; -6.543 ; -25.911           ;
 +-------+--------+-------------------+
 
 
@@ -199,7 +199,7 @@ No paths to report.
 +-------+-------+-------------------+
 ; Clock ; Slack ; End Point TNS     ;
 +-------+-------+-------------------+
-; ER    ; 0.842 ; 0.000             ;
+; ER    ; 0.838 ; 0.000             ;
 +-------+-------+-------------------+
 
 
@@ -236,7 +236,7 @@ No synchronizer chains to report.
 +-------+--------+--------------------+
 ; Clock ; Slack  ; End Point TNS      ;
 +-------+--------+--------------------+
-; ER    ; -3.385 ; -13.186            ;
+; ER    ; -3.381 ; -13.136            ;
 +-------+--------+--------------------+
 
 
@@ -245,7 +245,7 @@ No synchronizer chains to report.
 +-------+-------+--------------------+
 ; Clock ; Slack ; End Point TNS      ;
 +-------+-------+--------------------+
-; ER    ; 0.848 ; 0.000              ;
+; ER    ; 0.850 ; 0.000              ;
 +-------+-------+--------------------+
 
 
@@ -282,7 +282,7 @@ No synchronizer chains to report.
 +-------+--------+-------------------+
 ; Clock ; Slack  ; End Point TNS     ;
 +-------+--------+-------------------+
-; ER    ; -2.936 ; -11.542           ;
+; ER    ; -2.933 ; -11.517           ;
 +-------+--------+-------------------+
 
 
@@ -291,7 +291,7 @@ No synchronizer chains to report.
 +-------+-------+-------------------+
 ; Clock ; Slack ; End Point TNS     ;
 +-------+-------+-------------------+
-; ER    ; 0.594 ; 0.000             ;
+; ER    ; 0.599 ; 0.000             ;
 +-------+-------+-------------------+
 
 
@@ -328,11 +328,11 @@ No synchronizer chains to report.
 +------------------+---------+-------+----------+---------+---------------------+
 ; Clock            ; Setup   ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
 +------------------+---------+-------+----------+---------+---------------------+
-; Worst-case Slack ; -6.711  ; 0.594 ; N/A      ; N/A     ; -0.538              ;
-;  ER              ; -6.711  ; 0.594 ; N/A      ; N/A     ; -0.538              ;
+; Worst-case Slack ; -6.746  ; 0.599 ; N/A      ; N/A     ; -0.538              ;
+;  ER              ; -6.746  ; 0.599 ; N/A      ; N/A     ; -0.538              ;
 ;  EW              ; N/A     ; N/A   ; N/A      ; N/A     ; -0.538              ;
-; Design-wide TNS  ; -26.803 ; 0.0   ; 0.0      ; 0.0     ; -6.954              ;
-;  ER              ; -26.803 ; 0.000 ; N/A      ; N/A     ; -3.728              ;
+; Design-wide TNS  ; -26.838 ; 0.0   ; 0.0      ; 0.0     ; -6.954              ;
+;  ER              ; -26.838 ; 0.000 ; N/A      ; N/A     ; -3.728              ;
 ;  EW              ; N/A     ; N/A   ; N/A      ; N/A     ; -3.226              ;
 +------------------+---------+-------+----------+---------+---------------------+
 
@@ -521,7 +521,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Wed Oct 25 13:22:18 2023
+    Info: Processing started: Sun Jan  7 16:03:30 2024
 Info: Command: quartus_sta Ex3 -c Ex3
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -540,14 +540,14 @@ Info: Analyzing Slow 1100mV 85C Model
 Info (332140): No fmax paths to report
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -6.711
+Info (332146): Worst-case setup slack is -6.746
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -6.711             -26.803 ER 
-Info (332146): Worst-case hold slack is 1.099
+    Info (332119):    -6.746             -26.838 ER 
+Info (332146): Worst-case hold slack is 1.095
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     1.099               0.000 ER 
+    Info (332119):     1.095               0.000 ER 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is -0.538
@@ -562,14 +562,14 @@ Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Tim
 Info (332140): No fmax paths to report
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -6.468
+Info (332146): Worst-case setup slack is -6.543
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -6.468             -25.825 ER 
-Info (332146): Worst-case hold slack is 0.842
+    Info (332119):    -6.543             -25.911 ER 
+Info (332146): Worst-case hold slack is 0.838
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.842               0.000 ER 
+    Info (332119):     0.838               0.000 ER 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is -0.538
@@ -583,14 +583,14 @@ Info (334004): Delay annotation completed successfully
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -3.385
+Info (332146): Worst-case setup slack is -3.381
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -3.385             -13.186 ER 
-Info (332146): Worst-case hold slack is 0.848
+    Info (332119):    -3.381             -13.136 ER 
+Info (332146): Worst-case hold slack is 0.850
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.848               0.000 ER 
+    Info (332119):     0.850               0.000 ER 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is -0.363
@@ -602,14 +602,14 @@ Info: Analyzing Fast 1100mV 0C Model
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -2.936
+Info (332146): Worst-case setup slack is -2.933
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -2.936             -11.542 ER 
-Info (332146): Worst-case hold slack is 0.594
+    Info (332119):    -2.933             -11.517 ER 
+Info (332146): Worst-case hold slack is 0.599
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.594               0.000 ER 
+    Info (332119):     0.599               0.000 ER 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is -0.325
@@ -620,9 +620,9 @@ Info (332146): Worst-case minimum pulse width slack is -0.325
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 910 megabytes
-    Info: Processing ended: Wed Oct 25 13:22:21 2023
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 5168 megabytes
+    Info: Processing ended: Sun Jan  7 16:03:34 2024
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:04
 
 

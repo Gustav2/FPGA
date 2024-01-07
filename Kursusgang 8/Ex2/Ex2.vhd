@@ -4,8 +4,8 @@ use ieee.std_logic_1164.all;
 entity Ex2 is
 
 	port(
-		clk		 : in	std_logic;
-		input	 : in	std_logic;
+		clk		 : in	std_logic; --KEY0
+		input	 : in	std_logic; --SW0
 		Led0	 : out	std_logic;
 		Led1	 : out	std_logic;
 		Led2	 : out	std_logic;	
