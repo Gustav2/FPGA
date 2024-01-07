@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition"
 
--- DATE "11/15/2023 11:51:58"
+-- DATE "01/07/2024 15:35:12"
 
 -- 
 -- Device: Altera 5CEBA4F23C7 Package FBGA484
@@ -40,7 +40,7 @@ ENTITY 	Ex3 IS
 	sw1 : IN std_logic;
 	sw2 : IN std_logic;
 	sw3 : IN std_logic;
-	led : BUFFER std_logic
+	led : OUT std_logic
 	);
 END Ex3;
 

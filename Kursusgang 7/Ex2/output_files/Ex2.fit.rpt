@@ -1,5 +1,5 @@
 Fitter report for Ex2
-Wed Nov 15 12:50:54 2023
+Sun Jan  7 15:31:44 2024
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -58,7 +58,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +---------------------------------+------------------------------------------------+
-; Fitter Status                   ; Successful - Wed Nov 15 12:50:54 2023          ;
+; Fitter Status                   ; Successful - Sun Jan  7 15:31:44 2024          ;
 ; Quartus Prime Version           ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                   ; Ex2                                            ;
 ; Top-level Entity Name           ; Ex2                                            ;
@@ -196,7 +196,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/gusta/Desktop/GitHub/FPGA/Kursusgang 7/Ex2/output_files/Ex2.pin.
+The pin-out file can be found in C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 7/Ex2/output_files/Ex2.pin.
 
 
 +------------------------------------------------------------------------------------------+
@@ -1092,7 +1092,7 @@ Info (184021): Fitter periphery placement operations ending: elapsed time is 00:
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (11798): Fitter preparation operations ending: elapsed time is 00:00:04
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:05
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'Ex2.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained base clocks found in the design
 Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
@@ -1113,23 +1113,23 @@ Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.31 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.32 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:02
-Info (144001): Generated suppressed messages file C:/Users/gusta/Desktop/GitHub/FPGA/Kursusgang 7/Ex2/output_files/Ex2.fit.smsg
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:03
+Info (144001): Generated suppressed messages file C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 7/Ex2/output_files/Ex2.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 7482 megabytes
-    Info: Processing ended: Wed Nov 15 12:50:54 2023
-    Info: Elapsed time: 00:00:26
-    Info: Total CPU time (on all processors): 00:01:23
+    Info: Peak virtual memory: 7494 megabytes
+    Info: Processing ended: Sun Jan  7 15:31:45 2024
+    Info: Elapsed time: 00:00:27
+    Info: Total CPU time (on all processors): 00:01:21
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/gusta/Desktop/GitHub/FPGA/Kursusgang 7/Ex2/output_files/Ex2.fit.smsg.
+The suppressed messages can be found in C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 7/Ex2/output_files/Ex2.fit.smsg.
 
 

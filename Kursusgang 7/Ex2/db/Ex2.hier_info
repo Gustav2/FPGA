@@ -5,8 +5,8 @@ a => result.IN0
 b => result.IN1
 b => result.IN1
 b => result.IN1
-result[0] << result.DB_MAX_OUTPUT_PORT_TYPE
-result[1] << result.DB_MAX_OUTPUT_PORT_TYPE
-result[2] << result.DB_MAX_OUTPUT_PORT_TYPE
+result[0] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= result.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 

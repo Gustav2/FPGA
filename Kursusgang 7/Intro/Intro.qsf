@@ -61,7 +61,7 @@ set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_location_assignment PIN_U13 -to a
 set_location_assignment PIN_V13 -to b
 set_location_assignment PIN_T13 -to c
-set_location_assignment PIN_AA15 -to d
+set_location_assignment PIN_T12 -to d
 set_location_assignment PIN_AA2 -to l_a
 set_location_assignment PIN_AA1 -to l_b
 set_location_assignment PIN_W2 -to l_c

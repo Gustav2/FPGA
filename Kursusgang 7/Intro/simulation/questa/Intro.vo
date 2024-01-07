@@ -17,7 +17,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition"
 
-// DATE "10/18/2023 14:05:21"
+// DATE "01/07/2024 15:26:45"
 
 // 
 // Device: Altera 5CEBA4F23C7 Package FBGA484
@@ -55,7 +55,7 @@ output 	l_d;
 // a	=>  Location: PIN_U13,	 I/O Standard: 2.5 V,	 Current Strength: Default
 // b	=>  Location: PIN_V13,	 I/O Standard: 2.5 V,	 Current Strength: Default
 // c	=>  Location: PIN_T13,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// d	=>  Location: PIN_AA15,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// d	=>  Location: PIN_T12,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
 
 wire gnd;
@@ -173,7 +173,7 @@ defparam \c~input .bus_hold = "false";
 defparam \c~input .simulate_z_as = "z";
 // synopsys translate_on
 
-// Location: IOIBUF_X36_Y0_N35
+// Location: IOIBUF_X34_Y0_N18
 cyclonev_io_ibuf \d~input (
 	.i(d),
 	.ibar(gnd),
@@ -184,7 +184,7 @@ defparam \d~input .bus_hold = "false";
 defparam \d~input .simulate_z_as = "z";
 // synopsys translate_on
 
-// Location: LABCELL_X12_Y3_N0
+// Location: MLABCELL_X49_Y20_N0
 cyclonev_lcell_comb \~QUARTUS_CREATED_GND~I (
 // Equation(s):
 

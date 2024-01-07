@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(5CEBA4F23) Path("C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 7/Ex3/output_files/") File("Ex3.sof") MfrSpec(OpMask(1));
+		Device PartName(5CEBA4F23) Path("C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 7/Intro/output_files/") File("Intro.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
