@@ -20,3 +20,4 @@
 * Ex3:  An n-bit-memory block is an element with n inputs and n outputs as, well as a writeEnable and readEnable input. Build an 4 bit memory block it letting inputs be switches and output LEDs. Use BT0 as readEnable, and BT1 as writeEnable.
 
 * Ex4: How can the memory block above be extended to include a multitude of 4-bit memory blocks.
+![666-658-max](https://github.com/Gustav2/FPGA/assets/25373105/43630ae2-b5e4-411d-a5e8-6479b2531887)
