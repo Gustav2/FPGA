@@ -15,9 +15,9 @@ entity Kursus9_Ex2 is
 
 	port
 	(
-		clk		  : in std_logic;
-		reset	  : in std_logic;
-		enable	  : in std_logic;
+		clk		  : in std_logic; --Boardclock
+		reset	  : in std_logic; --Ik mappet
+		enable	  : in std_logic; --SW0
 		q		  : out integer range MIN_COUNT to MAX_COUNT
 		
 	);

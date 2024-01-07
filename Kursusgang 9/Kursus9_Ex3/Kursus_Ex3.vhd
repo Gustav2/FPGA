@@ -15,9 +15,9 @@ entity Kursus_Ex3 is
 
 	port
 	(
-		clk		  : in std_logic;
-		reset	  : in std_logic;
-		enable	  : in std_logic;
+		clk		  : in std_logic; --KEY0
+		reset	  : in std_logic; --KEY1
+		enable	  : in std_logic; --SW0
 		q		  : out integer range MIN_COUNT to MAX_COUNT
 	);
 

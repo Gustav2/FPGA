@@ -5,10 +5,10 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity Kursus9_Ex4 is
     Port (
-        clk : in STD_LOGIC;
-        reset : in STD_LOGIC;
-        binary_input : in STD_LOGIC_VECTOR(3 downto 0);
-        segment_output : out STD_LOGIC_VECTOR(6 downto 0)
+        clk : in STD_LOGIC; --KEY0
+        reset : in STD_LOGIC; --KEY1
+        binary_input : in STD_LOGIC_VECTOR(3 downto 0); --SW0 to SW3
+        segment_output : out STD_LOGIC_VECTOR(6 downto 0) --HEX0
     );
 end entity;
 
