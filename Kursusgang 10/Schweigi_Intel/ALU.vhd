@@ -36,7 +36,7 @@ entity ALU is
 end ALU;
 
 architecture Behavioral of ALU is
-signal sum,diff,shiftL,shiftR,shiftLR,band,bor,bxor,bnot : std_logic_vector(7 downto 0);
+signal sum,diff,shiftL,shiftR,shiftLR,band,bor,bxor,bnot : std_logic_vector(7 downto 0); --tilfoejet not
 signal flagDZ, flagDC, flagSZ, flagsC, flagshZ, flagshO : std_logic;
 
 begin
@@ -72,7 +72,7 @@ flagshZ <= '1' when (shiftR = "00000000") else
 band <= argA and argB;
 bor <= argA or argB;
 bxor <= argA xor argB;
-bnot <= not argA;
+bnot <= not argA; --Vi har tilfoejet bnot, til negering
          
 with sel select
     res <= sum when "0000",
@@ -82,7 +82,7 @@ with sel select
            band when "0100",
            bor when "0101",
            bxor when "0110",
-			  bnot when "0111",
+			  bnot when "0111", --Her er den så tilfoejet med opcode 0111
            (others => '0') when others;
            
 with sel select

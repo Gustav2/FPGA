@@ -1,5 +1,5 @@
 Analysis & Synthesis report for top
-Wed Nov  8 14:06:18 2023
+Sun Jan  7 16:50:33 2024
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -52,7 +52,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +---------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed Nov  8 14:06:18 2023          ;
+; Analysis & Synthesis Status     ; Successful - Sun Jan  7 16:50:33 2024          ;
 ; Quartus Prime Version           ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                   ; top                                            ;
 ; Top-level Entity Name           ; top                                            ;
@@ -177,22 +177,20 @@ https://fpgasoftware.intel.com/eula.
 ;     Processor 4            ;   0.0%      ;
 ;     Processor 5            ;   0.0%      ;
 ;     Processor 6            ;   0.0%      ;
-;     Processor 7            ;   0.0%      ;
-;     Processor 8            ;   0.0%      ;
-;     Processors 9-16        ;   0.0%      ;
+;     Processors 7-16        ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                             ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                      ; Library ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------+---------+
-; top_w_proc_2.vhd                 ; yes             ; User VHDL File  ; C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/top_w_proc_2.vhd ;         ;
-; hs_uart.vhd                      ; yes             ; User VHDL File  ; C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/hs_uart.vhd      ;         ;
-; bytetx.vhd                       ; yes             ; User VHDL File  ; C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/bytetx.vhd       ;         ;
-; ALU.vhd                          ; yes             ; User VHDL File  ; C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/ALU.vhd          ;         ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                         ; Library ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------+---------+
+; top_w_proc_2.vhd                 ; yes             ; User VHDL File  ; C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/top_w_proc_2.vhd ;         ;
+; hs_uart.vhd                      ; yes             ; User VHDL File  ; C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/hs_uart.vhd      ;         ;
+; bytetx.vhd                       ; yes             ; User VHDL File  ; C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/bytetx.vhd       ;         ;
+; ALU.vhd                          ; yes             ; User VHDL File  ; C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/ALU.vhd          ;         ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -518,7 +516,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:04     ;
+; Top            ; 00:00:06     ;
 +----------------+--------------+
 
 
@@ -528,36 +526,36 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Wed Nov  8 14:06:06 2023
+    Info: Processing started: Sun Jan  7 16:50:15 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off top -c top
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file uart_rx.vhd
-    Info (12022): Found design unit 1: UART_RX-Behavioral File: C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/UART_RX.vhd Line: 19
-    Info (12023): Found entity 1: UART_RX File: C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/UART_RX.vhd Line: 7
+    Info (12022): Found design unit 1: UART_RX-Behavioral File: C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/UART_RX.vhd Line: 19
+    Info (12023): Found entity 1: UART_RX File: C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/UART_RX.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file top_w_proc_2.vhd
-    Info (12022): Found design unit 1: top-Behavioral File: C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/top_w_proc_2.vhd Line: 54
-    Info (12023): Found entity 1: top File: C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/top_w_proc_2.vhd Line: 33
+    Info (12022): Found design unit 1: top-Behavioral File: C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/top_w_proc_2.vhd Line: 54
+    Info (12023): Found entity 1: top File: C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/top_w_proc_2.vhd Line: 33
 Info (12021): Found 2 design units, including 1 entities, in source file hs_uart.vhd
-    Info (12022): Found design unit 1: hs_uart-behavioural File: C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/hs_uart.vhd Line: 24
-    Info (12023): Found entity 1: hs_uart File: C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/hs_uart.vhd Line: 10
+    Info (12022): Found design unit 1: hs_uart-behavioural File: C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/hs_uart.vhd Line: 24
+    Info (12023): Found entity 1: hs_uart File: C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/hs_uart.vhd Line: 10
 Info (12021): Found 2 design units, including 1 entities, in source file bytetx.vhd
-    Info (12022): Found design unit 1: bytetx-Behavioral File: C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/bytetx.vhd Line: 41
-    Info (12023): Found entity 1: bytetx File: C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/bytetx.vhd Line: 34
+    Info (12022): Found design unit 1: bytetx-Behavioral File: C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/bytetx.vhd Line: 41
+    Info (12023): Found entity 1: bytetx File: C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/bytetx.vhd Line: 34
 Info (12021): Found 2 design units, including 1 entities, in source file alu.vhd
-    Info (12022): Found design unit 1: ALU-Behavioral File: C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/ALU.vhd Line: 38
-    Info (12023): Found entity 1: ALU File: C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/ALU.vhd Line: 29
+    Info (12022): Found design unit 1: ALU-Behavioral File: C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/ALU.vhd Line: 38
+    Info (12023): Found entity 1: ALU File: C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/ALU.vhd Line: 29
 Info (12127): Elaborating entity "top" for the top level hierarchy
-Info (12128): Elaborating entity "hs_uart" for hierarchy "hs_uart:uart" File: C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/top_w_proc_2.vhd Line: 145
-Info (12128): Elaborating entity "bytetx" for hierarchy "bytetx:btx" File: C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/top_w_proc_2.vhd Line: 155
-Info (12128): Elaborating entity "ALU" for hierarchy "ALU:aluI" File: C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/top_w_proc_2.vhd Line: 163
-Warning (10036): Verilog HDL or VHDL warning at ALU.vhd(40): object "flagDZ" assigned a value but never read File: C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/ALU.vhd Line: 40
-Warning (10036): Verilog HDL or VHDL warning at ALU.vhd(40): object "flagSZ" assigned a value but never read File: C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/ALU.vhd Line: 40
-Warning (10036): Verilog HDL or VHDL warning at ALU.vhd(40): object "flagshZ" assigned a value but never read File: C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/ALU.vhd Line: 40
+Info (12128): Elaborating entity "hs_uart" for hierarchy "hs_uart:uart" File: C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/top_w_proc_2.vhd Line: 145
+Info (12128): Elaborating entity "bytetx" for hierarchy "bytetx:btx" File: C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/top_w_proc_2.vhd Line: 155
+Info (12128): Elaborating entity "ALU" for hierarchy "ALU:aluI" File: C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/top_w_proc_2.vhd Line: 163
+Warning (10036): Verilog HDL or VHDL warning at ALU.vhd(40): object "flagDZ" assigned a value but never read File: C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/ALU.vhd Line: 40
+Warning (10036): Verilog HDL or VHDL warning at ALU.vhd(40): object "flagSZ" assigned a value but never read File: C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/ALU.vhd Line: 40
+Warning (10036): Verilog HDL or VHDL warning at ALU.vhd(40): object "flagshZ" assigned a value but never read File: C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/ALU.vhd Line: 40
 Warning (13039): The following bidirectional pins have no drivers
-    Warning (13040): bidirectional pin "clk" has no driver File: C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/top_w_proc_2.vhd Line: 44
+    Warning (13040): bidirectional pin "clk" has no driver File: C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/top_w_proc_2.vhd Line: 44
 Info (286030): Timing-Driven Synthesis is running
-Warning (14632): Output pin "ser_clk_out" driven by bidirectional pin "clk" cannot be tri-stated File: C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/top_w_proc_2.vhd Line: 50
+Warning (14632): Output pin "ser_clk_out" driven by bidirectional pin "clk" cannot be tri-stated File: C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/top_w_proc_2.vhd Line: 50
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Info (21057): Implemented 1181 device resources after synthesis - the final resource count might be different
@@ -566,9 +564,9 @@ Info (21057): Implemented 1181 device resources after synthesis - the final reso
     Info (21060): Implemented 1 bidirectional pins
     Info (21061): Implemented 1174 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 4969 megabytes
-    Info: Processing ended: Wed Nov  8 14:06:18 2023
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:15
+    Info: Peak virtual memory: 4961 megabytes
+    Info: Processing ended: Sun Jan  7 16:50:33 2024
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:22
 
 

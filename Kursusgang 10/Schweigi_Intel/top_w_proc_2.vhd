@@ -191,7 +191,7 @@ uart : hs_uart
                 "0100" when x"46" , --and
                 "0101" when x"4A" , --or
                 "0110" when x"4E" , --xor
-					 "0111" when x"52" , --not
+					 "0111" when x"52" , --not tilfoejet med schweigi opcode 52(HEX) som er negering. 82 i decimal
                 "0000" when others;
         
  cpu_clk <= butt_clk; --set clk to single stepping
@@ -407,7 +407,7 @@ END PROCEDURE reset;
                   state <= wst1; --write to mem with data_reg and addr_reg set
                 WHEN ist4 TO ist6 => 
             END CASE; --I_state for x38 call
-   
+																			--Opcode for negering (NOT) er tilføjet
             WHEN x"0A"|x"0E"|x"5A"|x"5E"|x"46"|x"4A"|x"4E"|x"52" => --all implemented ALU ops, selection done through ALUsel above
               CASE(I_state) IS
                 WHEN ist1 => 

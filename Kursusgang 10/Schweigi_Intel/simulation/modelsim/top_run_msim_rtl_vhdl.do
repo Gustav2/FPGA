@@ -50,8 +50,8 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vcom -93 -work work {C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/top_w_proc_2.vhd}
-vcom -93 -work work {C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/hs_uart.vhd}
-vcom -93 -work work {C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/bytetx.vhd}
-vcom -93 -work work {C:/Users/madel/Desktop/ComTek/ICE/Schweigi_Intel/ALU.vhd}
+vcom -93 -work work {C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/top_w_proc_2.vhd}
+vcom -93 -work work {C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/hs_uart.vhd}
+vcom -93 -work work {C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/bytetx.vhd}
+vcom -93 -work work {C:/Users/madel/Desktop/ComTek/ICE/FPGA/Kursusgang 10/Schweigi_Intel/ALU.vhd}
 
