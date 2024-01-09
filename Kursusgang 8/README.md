@@ -12,8 +12,10 @@
 ** As initial value the 1st stage holds an 1  (A=1). The subsequent stages hold zeros.
 
 ** a: Determine the content of register stages after each of the the sub-sequent clock pulses and put results in a table.
+![image](https://github.com/Gustav2/FPGA/assets/25373105/bf8484f2-92e2-4435-8f67-1b2defdb1c79)
 
 ** b: What happens if all stages are initial zero.
+Everything is 0
 
 * Ex2: Build an 4-bit serial-in parallel-out register. User SW0 as input and BT0 as shift. Show the result on LED0-LED3.
 
